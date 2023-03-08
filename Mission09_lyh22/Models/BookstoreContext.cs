@@ -20,6 +20,6 @@ namespace Bookstore.Models
         }
 
         public DbSet<Book> Books { get; set; }
-
+        public DbSet<Purchasement> Purchasements { get; set; }
     }
 }

@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="~/css/site.css" />
     <link href="/lib/twitter-bootstrap/css/bootstrap.min.css" rel="stylesheet" />
     <link href="~/lib/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="/lib/font-awesome/css/all.min.css" rel="stylesheet" />
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
@@ -24,7 +25,14 @@
 
 <body>
     <div class="bg-dark text-white p-2">
-        <span class="navbar-brand m-lg-2">YH BOOKSTORE</span>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col navbar-brand">BOOKSTORE</div>
+                <div class="col-6 text-right">
+                    <vc:cart-summary />
+                </div>
+            </div>
+        </div>
     </div>
 
     <div class="row m-1 p-1">
